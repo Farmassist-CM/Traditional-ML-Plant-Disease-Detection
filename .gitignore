@@ -1,0 +1,10 @@
+# exclude image files within these folders
+img/**
+img_segmented/**
+img_testing/**
+
+# however, keep the directory structure
+!img/**/
+!img_segmented/**/
+!img_testing/**/
+!.gitkeep
